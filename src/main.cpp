@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "../../include/cpp-exercises/Solution.h"
+#include "../include/cpp-exercises/Solution.h"
 
 int main(int argc, char *argv[]) {
   std::vector<int> input;
