@@ -10,13 +10,13 @@ How to use my code:
 
 **Google Test Framework** will be downloaded from GitHub and built with the project.
 
-	```Shell
-	$ clone this repo
-	$ cd cpp-exercises
-	$ mkdir build
-	$ cd build
-	$ cmake ..
-	$ cmake --build .
-	$ ctest -VV
-	```
+```Shell
+$ clone this repo
+$ cd cpp-exercises
+$ mkdir build
+$ cd build
+$ cmake ..
+$ cmake --build .
+$ ctest -VV
+```
 
