@@ -47,6 +47,6 @@ endif()
 target_link_libraries(${PROJECT_TEST_NAME} ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries (${PROJECT_TEST_NAME} Solution)
 
-add_test(test1 ${PROJECT_TEST_NAME})
+add_test(test1 ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${PROJECT_TEST_NAME})
 
 
