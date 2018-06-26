@@ -8,6 +8,7 @@ class Solution {
 
 public:
     static std::vector<int> plusOne(std::vector<int> &A);
+    static std::vector<int> twoSum(std::vector<int>& nums, int target);
 
 };
 
